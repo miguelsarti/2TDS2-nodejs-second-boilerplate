@@ -2,5 +2,5 @@
 
 ## Descrição
 
-Projeto base em NodeJS
+Projeto boilerplate utilizando classes back-end nodejs
     
