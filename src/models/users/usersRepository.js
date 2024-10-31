@@ -20,6 +20,19 @@ class UsersRepository {
 
         return user;
     }
+    updateUser(id, name, email, password) {
+        const user = this.getUserById.apply(id)
+
+        if (!user) {
+            return null
+        }
+
+        user.name = name
+        user.name = email
+        user.name = password
+
+        return user;
+    }
 }
 
 export default UsersRepository;
